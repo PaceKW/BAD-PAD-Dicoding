@@ -9,7 +9,7 @@ all_df = pd.read_csv("main_data.csv")
 
 with st.sidebar:
     # Logo Perusahaan
-    st.image("../public/logo.png")
+    st.image("public/logo.png")
     
     name = st.text_input(label='Nama', value='')
     st.write('Selamat Datang ', name, '!')
